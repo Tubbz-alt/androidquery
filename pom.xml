@@ -2,13 +2,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
+        <groupId>com.shazam</groupId>
+        <artifactId>maven-root</artifactId>
+        <version>1</version>
     </parent>
 
-    <groupId>com.googlecode.android-query</groupId>
-    <artifactId>android-query</artifactId>
+    <groupId>com.shazam</groupId>
+    <artifactId>aquery</artifactId>
     <version>0.25.10-SNAPSHOT</version>
     <packaging>jar</packaging>
 
