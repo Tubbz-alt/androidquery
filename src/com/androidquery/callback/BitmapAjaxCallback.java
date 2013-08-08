@@ -667,6 +667,15 @@ public class BitmapAjaxCallback extends AbstractAjaxCallback<Bitmap, BitmapAjaxC
 	public static void clearCache(){
 		bigCache = null;
 		smallCache = null;
+    clearInvalidCache();
+	}
+
+  /**
+   * Clear the invalid images cache, to help trigger re-loads.
+   * 
+   * In particular, clear this and the tags of the view to refresh.
+   */
+	public static void clearInvalidCache(){
 		invalidCache = null;
 	}
 	
